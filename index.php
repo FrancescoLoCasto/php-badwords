@@ -10,9 +10,12 @@
 
 
 <body>
-   <h1>
-      ciao
-   </h1>
+
+   <form action="controller.php" method="POST">
+      <input type="text" name="normal" id="">
+      <input type="text" name="censured" id="">
+      <button type="submit">Invia!</button>
+   </form>
 
    <h1>
    <?php 
