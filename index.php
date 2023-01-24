@@ -17,9 +17,6 @@
       <button type="submit">Invia!</button>
    </form>
 
-   <h1>
-
-   </h1>
 </body>
 
 
