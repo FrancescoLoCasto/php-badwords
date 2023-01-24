@@ -16,7 +16,7 @@
       </h3>
    </div>
 
-   
+
 
    <div>
 
@@ -25,9 +25,6 @@
             echo $_POST['censured'];
          ?>
       </h3>
-
-
-
 
       <h3>
          ed è composta da:
@@ -41,7 +38,7 @@
       Questo è il tuo testo censurato:
 
          <?php 
-            $censuredString = str_ireplace('lorem', '***', $_POST['censured']);
+            $censuredString = str_ireplace($_POST['censured'], '***', $_POST['censured']);
             echo $censuredString;
          ?>
       </p>
