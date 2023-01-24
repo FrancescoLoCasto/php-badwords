@@ -18,9 +18,7 @@
    </form>
 
    <h1>
-   <?php 
-      echo 'Ciao'
-   ?>
+
    </h1>
 </body>
 
